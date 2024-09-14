@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="head position-fixed w-100 z-3">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-3">
+            <div class="container-fluid">
+              <a class="navbar-brand " href="#">Arabian Academy</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll mx-4" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#st">Our Story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#cs">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#join">Join Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#loc">Location</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"href="#con">Contact Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle btn btn-primary btn-lg btn-more mt-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Placement Tests</a></li>
+                      <li><a class="dropdown-item" href="#">Complaints</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+
+  <div class="intro" id="home">
+     <div class="vid w-100">
+        <video src="./vids/intro.mp4" class="z-0 w-100 " autoplay muted loop disablePictureInPicture></video> 
+      </div>
+     <div class="highlights container-fluid col-12 d-flex justify-content-evenly gap-2 flex-wrap mt-4 row h-100">
+       <div class="card p-0 col-sm-12 col-lg-3" style="width: 20rem; height: 20rem;">
+        <div class="card-body p-0">
+          <img src="./imgs/2021.jpeg" class="card-img-top m-0 z-1" alt="...">
+          <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+            <h3 class=" z-2">2021 Highlights</h3>
+          </div>
+        </div>
+       </div>
+       <div class="card p-0  col-sm-12 col-lg-3" style="width: 20rem; height: 20rem;">
+        <div class="card-body  p-0">
+          <img src="./imgs/2022.jpeg" class="card-img-top m-0" alt="...">
+          <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+            <h3 class=" z-2">2022 Highlights</h3>
+          </div>
+        </div>
+       </div>
+       <div class="card p-0  col-sm-12 col-lg-3" style="width: 20rem; height: 20rem;">
+        <div class="card-body p-0">
+          <img src="./imgs/img3.jpg" class="card-img-top m-0" alt="...">
+          <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+            <h3 class=" z-2">2023 Highlights</h3>
+          </div>
+        </div>
+       </div>
+       <div class="arrow-down col-12 align-items-center">
+        <a href="#st">
+          <i class="fas fa-arrow-down"></i>
+        </a>
+       </div>
+    </div>
+  </div>
+
+
+  <section class="story-sec mt-1" id="st">
+    <div class="story row p-4 mt-4 ms-3 me-3">
+      <div class="story-l col-sm-12 col-lg-6">
+        <h2>Our <span class="story-span">Story.</span> </h2>
+        <h3>Arabian Academy has been there for you since 2015.</h3>
+        <p>As an educative center, we strive to: provide the elements of ability and opportunity for those wishing to receive knowledge by providing courses at competitive prices to provide an opportunity for learning for all.</p>
+        <hr>
+      </div>
+      <div class="story-r col-sm-12 col-lg-6">
+        <p class="p-3">We provide training courses opportunities b All areas to provide those wishing to learn with solid foundations to build their experience, then consolidate information and enrich experiences to qualify cadres who are able to join the labor market.</p>
+        <hr>
+        <div class="btns row d-flex justify-content-center">
+          <a href="#cs" class="btn btn-services btn-secondary btn-lg col-sm-12 col-lg-3 mx-3 mb-2 text-nowrap">Our Services</a>
+           <a href="#loc" class="btn btn-schedule btn-primary btn-lg col-sm-12 col-lg-3 mx-3 mb-2 text-nowrap">Our Location</a>
+        
+      </div>
+       
+      </div>
+    </div>
+  </section>
+
+  <!-- services -->
+  <section class="mt-4 ms-3 me-3 " id="cs">
+    <div class="courses row p-4 ">
+      <div class="courses-text text-center align-items-center col-sm-12 col-lg-6">
+        <h2>Our <span class="courses-span">Courses.</span> </h2>
+        <p class="p-4 ">We offer more than 20 courses in all fields.</p>
+        <h3 class="pb-4 text-white display-5">Choose yours!</h3>
+        <hr>
+      </div>
+      <div class="course-body p-2 col-sm-12 col-lg-6" >
+        <img src="./imgs/languages.jpeg" class="w-100 mt-5 z-1" alt="...">
+        <div class="rec btn btn-schedule btn-primary btn-lg "> Recommended</div>
+        <div class="course-info ">
+          <a href="#lang"> <h3 class=" z-3">Languages</h3></a>
+         
+        </div>
+      </div>
+      <div class="course-body p-2 col-sm-12 col-lg-3">
+        <img src="./imgs/accounting.jpeg" class="w-100 mt-5 z-1" alt="...">
+        <div class="course-info container-fluid ">
+          <a href="#acc"><h3 class=" z-3">Accounting</h3></a>
+          
+        </div>
+      </div>
+      <div class="course-body p-2 col-sm-12 col-lg-3">
+        <img src="./imgs/prog.jpeg" class="w-100 mt-5 z-1" alt="...">
+        <div class="course-info ">
+          <a href="#compu"><h3 class=" z-3">Computer</h3></a>
+        </div>
+      </div>
+      <div class="course-body p-2 col-sm-12 col-lg-3">
+        <img src="./imgs/manag.png" class="w-100 mt-5 z-1" alt="...">
+        <div class="course-info ">
+          <a href="#mang"><h3 class=" z-3">Management</h3></a>
+          
+        </div>
+      </div>
+      <div class="course-body p-2 col-sm-12 col-lg-3">
+        <img src="./imgs/comp.jpeg" class="w-100 mt-5 z-1" alt="...">
+        <div class="course-info ">
+          <a href="#comp"> <h3 class=" z-3">Companies</h3></a>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="all text-center align-items-center">
+      <div class="title d-flex justify-content-center align-items-center">
+        <h2>Languages</h2>
+      </div>
+      <div class="lang-courses align-items-center d-flex flex-column ms-3 me-3" id="lang">
+        <div class="upper-lang row">
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/english.png" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">English</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/fench.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">French</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/german.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">German</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="lower-lang row">
+        <div class="card p-0  col-sm-12 col-lg-6" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/turkey.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Turkish</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-6" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/arabic.jpg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Arabic</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section>
+    <div class="all text-center align-items-center" id="acc">
+      <div class="title d-flex justify-content-center align-items-center">
+        <h2>Accounting</h2>
+      </div>
+      <div class="lang-courses align-items-center d-flex flex-column ms-3 me-3">
+        <div class="upper-lang row">
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/contracting.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Contracting Accounting</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/tax.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Tax</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/modern accounting.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-wrap">
+              <h3 class=" z-2">PFA & Modern accounting</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="lower-lang row">
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/cert.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">International Certification</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/electronic accounting.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Electronic Accounting</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/banking accounting.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Banking accounting</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="all text-center align-items-center" id="compu">
+      <div class="title d-flex justify-content-center align-items-center">
+        <h2>Computer</h2>
+      </div>
+      <div class="lang-courses align-items-center d-flex flex-column ms-3 me-3">
+        <div class="upper-lang row">
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/icdl_.jpg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">ICDL</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/data analysis.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Data analysis</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-4" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/graphic.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Graphic</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="lower-lang row">
+        <div class="card p-0  col-sm-12 col-lg-6" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/prog.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Programming</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-6" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/microsoft.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Microsoft</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="all text-center align-items-center" id="mang">
+      <div class="title d-flex justify-content-center align-items-center">
+        <h2>Management</h2>
+      </div>
+      <div class="lang-courses align-items-center d-flex flex-column ms-3 me-3">
+        <div class="upper-lang row">
+        <div class="card p-0  col-sm-12 col-lg-6" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/hrjpeg.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">HR</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-6" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/digital marketing.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Digital Marketing</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="all text-center align-items-center" id="comp">
+      <div class="title d-flex justify-content-center align-items-center">
+        <h2>Companies</h2>
+      </div>
+      <div class="lang-courses align-items-center d-flex flex-column ms-3 me-3">
+        <div class="upper-lang row">
+        <div class="card p-0  col-sm-12 col-lg-6" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/consulting.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Consulting</h3>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0  col-sm-12 col-lg-6" style="width: 20rem; height: 10rem;">
+          <div class="card-body p-0">
+            <img src="./imgs/training.jpeg" class="card-img-top m-0" alt="...">
+            <div class="card-text position-absolute top-50 start-50 translate-middle text-white text-center text-nowrap">
+              <h3 class=" z-2">Training & Recruitment</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section>
+  <div class="member d-flex justify-content-center align-items-center" id="join">
+    <div class="row p-4 mt-4 ms-3 me-3">
+      <div class="member-text col-sm-12 col-lg-8">
+        <h2>Become a member in <span class="span-arabian">Arabian Academy</span> ?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, iure.</p>
+      </div>
+      <div class="register  col-sm-12 col-lg-4">
+        <button type="button" class="reg-btn btn btn-schedule btn-primary btn-lg text-nowrap"><a href="https://docs.google.com/forms/d/e/1FAIpQLScG9g1G4GbfbeZzCVtNCVgg4ZMGI_JU7h7BsPpk_d-VYVxRog/viewform">Register Now</a></button>
+      </div>
+  </div>
+  </section>
+
+
+<section>
+  <div class="location-details courses d-flex flex-column align-items-center" id="loc">
+    <div class="location-title pt-5">
+      <h3>Here's Our <span class="span-location">Location</span>!</h3>
+    </div>
+  <div class="location d-flex justify-content-evenly align-items-center row">
+    <div class="map col-sm-12 col-lg-6 d-flex flex-row-reverse mt-3">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54594.16480329143!2d29.85359484863279!3d31.216980699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c5754edecd6f%3A0xdcd3180af59fec4a!2sARABIAN%20ACADEMY%20-%20(%20sporting%20branch%20)!5e0!3m2!1sen!2seg!4v1724773418162!5m2!1sen!2seg"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <div class="address col-sm-12 col-lg-6 d-flex flex-row mt-3">
+      <div class="address-box">
+      <h3>Sporting Branch</h3>
+      <p ><i class="fas fa-map-marker-alt ms-3 me-2"></i>
+        سبورتنج الصغري - 146 خلف عمر لطفي، علي الترام, &nbsp; Alexandria Governorate 21500</p>
+      <p ><i class="fas fa-envelope ms-3 me-2"></i>
+        info@ArabianAcademy.org</p>
+      <p><i class="fas fa-phone-alt ms-3 me-2"></i>
+        03-5915006</p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<section>
+  <div class="contact row">
+    <div class="msg-box col-12 container-fluid" id="con">
+    <h3>Leave Us a Message</h3>
+    <div class="inp row container-fluid">
+    <input type="text"  placeholder="Name" class=" col-sm-12 col-lg-4 w-25 m-4">
+    <input type="email" name="" id="" placeholder="Email" class=" col-sm-12 col-lg-4 w-25 m-4">
+    <input type="text" placeholder="Subject" class=" col-sm-12 col-lg-4 w-25 m-4">
+    <input type="text" placeholder="Message" class="msg col-12">
+    <button type="button" class="btn btn-schedule btn-primary btn-lg col-12 mt-3 text-nowrap">Submit</button>
+  </div>
+  </div>
+</div>
+</section>
+
+
+<footer>
+  <div class="foot d-flex flex-column p-4 mt-4 ms-4 me-4">
+    <div class="upper-foot row">
+      <div class="logo col-sm-12 col-lg-6 d-flex flex-row">
+        <h2 class="navbar-brand col-6">Arabian Academy</h2>
+      </div>
+      <div class="icons col-sm-12 col-lg-6 d-flex flex-row-reverse">
+      <a href="https://www.youtube.com" target="_blank">
+          <i class="fab fa-youtube"></i>
+          <a href="https://www.whatsapp.com" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+      <a href="https://www.facebook.com" target="_blank">
+        <i class="fab fa-facebook"></i>
+    </a>
+</a>
+      </div>
+      <hr>
+    </div>
+    <div class="lower-foot row">
+      <div class="srcs col-sm-12 col-lg-6">
+        <a href="">Our Story</a>
+        <a href="">Contact</a>
+        <a href="">Privacy and terms</a>
+      </div>
+      <dic class="cr col-sm-12 col-lg-6 row">
+        <div class="text col-6"><p>Copyright &copy; 2022 Leadership Event Co., Ltd. <br>
+          All Rights Reserved.</p></div>
+          <div class="arrow-up col-6">
+            <a href="#home"><i class="fas fa-arrow-up"></i> </a>
+          </div>
+        
+      </dic>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
